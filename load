@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>엘리하이 무료 체험</title>
+  <meta name="referrer" content="origin-when-cross-origin">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10974107380"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-10974107380');
+
+    window.onload = function () {
+      if (window.gtag) {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-10974107380', // 전환 ID/라벨 수정 필요
+          'value': 0,
+          'currency': 'KRW'
+        });
+      }
+
+      const timer = setTimeout(() => {
+        window.location.href = 'https://iryan.kr/t737dmq3fj';
+      }, 2000);
+
+      window.addEventListener('beforeunload', () => clearTimeout(timer));
+    };
+  </script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #e0f7e9, #e0f0ff);
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 320px;
+    }
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 5px solid #ddd;
+      border-top-color: #4caf50;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    p {
+      color: #666;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="spinner"></div>
+    <h2>엘리하이 무료 체험 페이지로 이동 중...</h2>
+    <p>잠시만 기다려주세요</p>
+  </div>
+</body>
+</html>
